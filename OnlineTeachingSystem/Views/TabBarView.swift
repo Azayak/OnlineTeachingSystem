@@ -21,12 +21,12 @@ struct TabBarView: View {
                     Image(systemName: "house").imageScale(.large)
                     Text("首页")
                 }
-            CoursesList(coursesList: myCoursesList, titleName: "课程列表")
+            CoursesListView(coursesList: myCoursesList, titleName: "课程列表")
                 .tabItem {
                     Image(systemName: "book").imageScale(.large)
                     Text("课程")
                 }
-            CoursesList(coursesList: myCoursesList, titleName: "讨论区列表")
+            CoursesListView(coursesList: myCoursesList, titleName: "讨论区列表")
                 .tabItem {
                     Image(systemName: "message").imageScale(.large)
                     Text("讨论区")

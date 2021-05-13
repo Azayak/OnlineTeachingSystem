@@ -55,7 +55,7 @@ struct MinePageView: View {
                         Text("个人信息")
                     })                
                 NavigationLink(
-                    destination: CoursesList(coursesList: myCoursesList, titleName: "我的课程"),
+                    destination: CoursesListView(coursesList: myCoursesList, titleName: "我的课程"),
                     label: {
                         Text("我的课程")
                     })

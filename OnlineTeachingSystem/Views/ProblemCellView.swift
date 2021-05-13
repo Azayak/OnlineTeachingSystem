@@ -17,8 +17,9 @@ struct ProblemCellView: View {
     var body: some View {
         if problemCell.problem_category == 1 {
             VStack(alignment: .center) {
-                Text(problemCell.problem_stem).italic().font(.title2)
+                
                 List {
+                    Text(problemCell.problem_stem).italic().font(.title2)
                     HStack {
                         Text("A.")
                         Text(problemCell.problem_select_choice_A!)
@@ -54,8 +55,9 @@ struct ProblemCellView: View {
                         problemSelectChosen == 4 ? .blue : .primary
                     )
                 }.listStyle(InsetGroupedListStyle())
-                .frame(width: nil, height: 500, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                Spacer()
+//                .frame(width: nil, height: 500, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//                Spacer()
+                
 //                Button("提交") {
 //
 //                }.buttonStyle(DefaultButtonStyle())
@@ -63,15 +65,16 @@ struct ProblemCellView: View {
             }
         } else {
             VStack(alignment: .leading) {
-                Text(problemCell.problem_stem).italic().font(.title2)
-                Spacer()
-                TextField("输入答案", text: $problemFillFulled)
-                    .padding(7)
-                    .padding(.horizontal, 25)
-                    .background(Color(.systemGray6))
-                    .cornerRadius(8.0)
-                    .padding(.horizontal, 10)
-                Spacer()
+                List {
+                    Text(problemCell.problem_stem).italic().font(.title2)
+                    TextField("输入答案", text: $problemFillFulled)
+                        .padding(7)
+                        .padding(.horizontal, 25)
+                        .background(Color(.systemGray6))
+                        .cornerRadius(8.0)
+                        .padding(.horizontal, 10)
+                }.listStyle(InsetGroupedListStyle())
+                
             }
         }
     }

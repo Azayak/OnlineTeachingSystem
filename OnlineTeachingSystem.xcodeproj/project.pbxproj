@@ -20,8 +20,9 @@
 		E5788DD225F7093D0007F011 /* HeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5788DD125F7093D0007F011 /* HeadView.swift */; };
 		E5788DD525F70A060007F011 /* MainMnueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5788DD425F70A060007F011 /* MainMnueView.swift */; };
 		E5788DD825F70AE90007F011 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5788DD725F70AE90007F011 /* TabBarView.swift */; };
-		E5788DDC25F725BE0007F011 /* CoursesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5788DDB25F725BE0007F011 /* CoursesList.swift */; };
+		E5788DDC25F725BE0007F011 /* CoursesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5788DDB25F725BE0007F011 /* CoursesListView.swift */; };
 		E5788DE825F9E81C0007F011 /* zhangjianhao.png in Resources */ = {isa = PBXBuildFile; fileRef = E5788DE725F9E81C0007F011 /* zhangjianhao.png */; };
+		E57F0D10264D3E8E00F50BB2 /* UserMineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F0D0F264D3E8E00F50BB2 /* UserMineViewModel.swift */; };
 		E59184FE264654B800B677FF /* UserMineDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59184FD264654B800B677FF /* UserMineDetailModel.swift */; };
 		E5918500264658DB00B677FF /* CourseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59184FF264658DB00B677FF /* CourseCellModel.swift */; };
 		E59185022646899200B677FF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59185012646899200B677FF /* ModelData.swift */; };
@@ -68,9 +69,10 @@
 		E5788DD125F7093D0007F011 /* HeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadView.swift; sourceTree = "<group>"; };
 		E5788DD425F70A060007F011 /* MainMnueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMnueView.swift; sourceTree = "<group>"; };
 		E5788DD725F70AE90007F011 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		E5788DDB25F725BE0007F011 /* CoursesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesList.swift; sourceTree = "<group>"; };
+		E5788DDB25F725BE0007F011 /* CoursesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesListView.swift; sourceTree = "<group>"; };
 		E5788DE725F9E81C0007F011 /* zhangjianhao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhangjianhao.png; sourceTree = "<group>"; };
 		E5788DF625FF78EE0007F011 /* UserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserData.json; sourceTree = "<group>"; };
+		E57F0D0F264D3E8E00F50BB2 /* UserMineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMineViewModel.swift; sourceTree = "<group>"; };
 		E59184FD264654B800B677FF /* UserMineDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMineDetailModel.swift; sourceTree = "<group>"; };
 		E59184FF264658DB00B677FF /* CourseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellModel.swift; sourceTree = "<group>"; };
 		E59185012646899200B677FF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -182,7 +184,7 @@
 				E5788DD125F7093D0007F011 /* HeadView.swift */,
 				E5788DD425F70A060007F011 /* MainMnueView.swift */,
 				E5788DD725F70AE90007F011 /* TabBarView.swift */,
-				E5788DDB25F725BE0007F011 /* CoursesList.swift */,
+				E5788DDB25F725BE0007F011 /* CoursesListView.swift */,
 				E59598062647E63500AD6468 /* CourseCellView.swift */,
 				E595980826495C8200AD6468 /* CourseDetailView.swift */,
 				E595980E264ACC0300AD6468 /* VideoDetailView.swift */,
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				E5788DBC25F62F5A0007F011 /* MyDetails.swift */,
+				E57F0D0F264D3E8E00F50BB2 /* UserMineViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -326,10 +329,11 @@
 				E5959832264BD95500AD6468 /* _student_answer.swift in Sources */,
 				E5788DA225F62DC50007F011 /* AppDelegate.swift in Sources */,
 				E59598072647E63500AD6468 /* CourseCellView.swift in Sources */,
+				E57F0D10264D3E8E00F50BB2 /* UserMineViewModel.swift in Sources */,
 				E5788DA425F62DC50007F011 /* SceneDelegate.swift in Sources */,
 				E595981E264BD47200AD6468 /* _course_student.swift in Sources */,
 				E59184FE264654B800B677FF /* UserMineDetailModel.swift in Sources */,
-				E5788DDC25F725BE0007F011 /* CoursesList.swift in Sources */,
+				E5788DDC25F725BE0007F011 /* CoursesListView.swift in Sources */,
 				E59598052647E5E100AD6468 /* MyCoursesView.swift in Sources */,
 				E5788DC025F635130007F011 /* MyDetailsView.swift in Sources */,
 				E5959811264AD0FA00AD6468 /* StudentVideoModel.swift in Sources */,

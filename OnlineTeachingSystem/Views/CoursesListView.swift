@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CoursesList: View {
+struct CoursesListView: View {
 //    @ObservedObject var courseCategoryNames: CourseCategories
     
     var coursesList: [CourseCellModel]
@@ -36,6 +36,6 @@ struct CoursesList: View {
 
 struct CoursesList_Previews: PreviewProvider {
     static var previews: some View {
-        CoursesList(coursesList: myCoursesList, titleName: "我的课程")
+        CoursesListView(coursesList: myCoursesList, titleName: "我的课程")
     }
 }
