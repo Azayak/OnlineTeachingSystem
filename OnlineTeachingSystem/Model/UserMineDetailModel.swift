@@ -28,14 +28,14 @@ struct UserMineDetailModel: Codable {
     
     var common_name: String
     
-    var user_desc: String?
+    var user_desc: String
     var user_gender: Int
     
-    var user_grade: Int?
-    var user_class: Int?
+    var user_grade: Int
+    var user_class: Int
     
     
-    var user_image: Image? {
+    var user_image: Image {
         return Image("\(user_id)")
 //        NSNumber(value: uuser.user_id).stringValue
     }

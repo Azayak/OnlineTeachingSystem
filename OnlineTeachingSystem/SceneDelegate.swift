@@ -22,8 +22,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
-        // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-        let contentView = HeadView().environment(\.managedObjectContext, context)
+        // Add `@Environment(\.managedObjectContext)` in the views that will need the context.-
+        
+        var userMineViewModel = UserMineViewModel(user_id: 10001)
+        
+        let contentView = TabBarView().environmentObject(userMineViewModel)
+        //        let contentView = TabBarView().environment(\.managedObjectContext, context)
+        
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

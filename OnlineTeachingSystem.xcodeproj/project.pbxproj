@@ -23,6 +23,9 @@
 		E5788DDC25F725BE0007F011 /* CoursesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5788DDB25F725BE0007F011 /* CoursesListView.swift */; };
 		E5788DE825F9E81C0007F011 /* zhangjianhao.png in Resources */ = {isa = PBXBuildFile; fileRef = E5788DE725F9E81C0007F011 /* zhangjianhao.png */; };
 		E57F0D10264D3E8E00F50BB2 /* UserMineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F0D0F264D3E8E00F50BB2 /* UserMineViewModel.swift */; };
+		E57F0D12264D593000F50BB2 /* EditableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F0D11264D593000F50BB2 /* EditableText.swift */; };
+		E57F0D14264D649C00F50BB2 /* CoursesVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F0D13264D649C00F50BB2 /* CoursesVIewModel.swift */; };
+		E57F0D16264D7B9400F50BB2 /* CourseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F0D15264D7B9400F50BB2 /* CourseDetailViewModel.swift */; };
 		E59184FE264654B800B677FF /* UserMineDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59184FD264654B800B677FF /* UserMineDetailModel.swift */; };
 		E5918500264658DB00B677FF /* CourseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59184FF264658DB00B677FF /* CourseCellModel.swift */; };
 		E59185022646899200B677FF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59185012646899200B677FF /* ModelData.swift */; };
@@ -73,6 +76,9 @@
 		E5788DE725F9E81C0007F011 /* zhangjianhao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhangjianhao.png; sourceTree = "<group>"; };
 		E5788DF625FF78EE0007F011 /* UserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserData.json; sourceTree = "<group>"; };
 		E57F0D0F264D3E8E00F50BB2 /* UserMineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMineViewModel.swift; sourceTree = "<group>"; };
+		E57F0D11264D593000F50BB2 /* EditableText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableText.swift; sourceTree = "<group>"; };
+		E57F0D13264D649C00F50BB2 /* CoursesVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesVIewModel.swift; sourceTree = "<group>"; };
+		E57F0D15264D7B9400F50BB2 /* CourseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewModel.swift; sourceTree = "<group>"; };
 		E59184FD264654B800B677FF /* UserMineDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMineDetailModel.swift; sourceTree = "<group>"; };
 		E59184FF264658DB00B677FF /* CourseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellModel.swift; sourceTree = "<group>"; };
 		E59185012646899200B677FF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -179,6 +185,7 @@
 			children = (
 				E5788DA525F62DC50007F011 /* ContentView.swift */,
 				E59598042647E5E100AD6468 /* MyCoursesView.swift */,
+				E57F0D11264D593000F50BB2 /* EditableText.swift */,
 				E5788DB925F62E920007F011 /* MinePageView.swift */,
 				E5788DBF25F635130007F011 /* MyDetailsView.swift */,
 				E5788DD125F7093D0007F011 /* HeadView.swift */,
@@ -198,6 +205,8 @@
 			children = (
 				E5788DBC25F62F5A0007F011 /* MyDetails.swift */,
 				E57F0D0F264D3E8E00F50BB2 /* UserMineViewModel.swift */,
+				E57F0D13264D649C00F50BB2 /* CoursesVIewModel.swift */,
+				E57F0D15264D7B9400F50BB2 /* CourseDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -318,6 +327,7 @@
 				E59185022646899200B677FF /* ModelData.swift in Sources */,
 				E5959828264BD64200AD6468 /* _video.swift in Sources */,
 				E591850426468A0D00B677FF /* UuserData.json in Sources */,
+				E57F0D14264D649C00F50BB2 /* CoursesVIewModel.swift in Sources */,
 				E5959815264B7F8F00AD6468 /* SingleProblemAnswerModel.swift in Sources */,
 				E595980D264AC8E900AD6468 /* VideoCellModel.swift in Sources */,
 				E595982E264BD7FA00AD6468 /* _problem.swift in Sources */,
@@ -330,7 +340,9 @@
 				E5788DA225F62DC50007F011 /* AppDelegate.swift in Sources */,
 				E59598072647E63500AD6468 /* CourseCellView.swift in Sources */,
 				E57F0D10264D3E8E00F50BB2 /* UserMineViewModel.swift in Sources */,
+				E57F0D16264D7B9400F50BB2 /* CourseDetailViewModel.swift in Sources */,
 				E5788DA425F62DC50007F011 /* SceneDelegate.swift in Sources */,
+				E57F0D12264D593000F50BB2 /* EditableText.swift in Sources */,
 				E595981E264BD47200AD6468 /* _course_student.swift in Sources */,
 				E59184FE264654B800B677FF /* UserMineDetailModel.swift in Sources */,
 				E5788DDC25F725BE0007F011 /* CoursesListView.swift in Sources */,

@@ -9,9 +9,8 @@ import SwiftUI
 
 struct CoursesListView: View {
 //    @ObservedObject var courseCategoryNames: CourseCategories
-    
-    var coursesList: [CourseCellModel]
-    
+    @EnvironmentObject var coursesViewModel: CoursesViewModel
+        
     var titleName: String
     
     var body: some View {
@@ -19,10 +18,17 @@ struct CoursesListView: View {
         NavigationView {
 //            Text(self.titleName)
 //                .navigationTitle("Navigation")
-            List(coursesList, id: \.course_id) { courseCell in
+            List(coursesViewModel.coursesList, id: \.course_id) { courseCell in
+                
+//                NavigationLink(
+//                    destination: CourseCellView()
+//                ) {
+//                    
+//                }
+                
                 CourseCellView(courseCell: courseCell)
                     .border(Color.blue.opacity(0.25), width: 2)
-                    .cornerRadius(5)
+                    .cornerRadius(14)
             }
             .listStyle(InsetListStyle())
             .navigationTitle(self.titleName)
@@ -36,6 +42,6 @@ struct CoursesListView: View {
 
 struct CoursesList_Previews: PreviewProvider {
     static var previews: some View {
-        CoursesListView(coursesList: myCoursesList, titleName: "我的课程")
+        CoursesListView(titleName: "我的课程").environmentObject(CoursesViewModel.init())
     }
 }

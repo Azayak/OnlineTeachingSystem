@@ -18,9 +18,9 @@ var myVideoCell: VideoCellModel = VideoCellModel(video_id: 30001, course_id: 200
 
 var myStudentVideo: StudentVideoModel = StudentVideoModel(student_id: 10001, video_id: 30001, studyLength: 1000*60*30, lastTimePoint: 1000*60*20)
 
-var myProblemCell1: ProblemCellModel = ProblemCellModel(problem_id: 80001, homework_id: 70001, problem_category: 1, problem_stem: "《背影》的作者是谁？", problem_select_choice_A: "朱元璋", problem_select_choice_B: "朱允文", problem_select_choice_C: "朱棣", problem_select_choice_D: "朱自清", select_answer: 4, fill_answer: nil)
+var myProblemCell1: ProblemCellModel = ProblemCellModel(problem_id: 80001, homework_id: 70001, problem_category: 1, problem_stem: "《背影》的作者是谁？", problem_select_choice_A: "朱元璋", problem_select_choice_B: "朱允文", problem_select_choice_C: "朱棣", problem_select_choice_D: "朱自清", select_answer: 4, fill_answer: "")
 
-var myProblemCell2: ProblemCellModel = ProblemCellModel(problem_id: 80002, homework_id: 70001, problem_category: 2, problem_stem: "《背影》的作者是_", problem_select_choice_A: nil, problem_select_choice_B: nil, problem_select_choice_C: nil, problem_select_choice_D: nil, select_answer: nil, fill_answer: "朱自清")
+var myProblemCell2: ProblemCellModel = ProblemCellModel(problem_id: 80002, homework_id: 70001, problem_category: 2, problem_stem: "《背影》的作者是_", problem_select_choice_A: "", problem_select_choice_B: "", problem_select_choice_C: "", problem_select_choice_D: "", select_answer: 0, fill_answer: "朱自清")
 
 
 //var theUuser: Uuser = load("UuserData.json")

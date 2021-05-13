@@ -22,7 +22,7 @@ struct ProblemCellView: View {
                     Text(problemCell.problem_stem).italic().font(.title2)
                     HStack {
                         Text("A.")
-                        Text(problemCell.problem_select_choice_A!)
+                        Text(problemCell.problem_select_choice_A)
                     }.onTapGesture {
                         problemSelectChosen = 1
                     }.foregroundColor(
@@ -30,7 +30,7 @@ struct ProblemCellView: View {
                     )
                     HStack {
                         Text("B.")
-                        Text(problemCell.problem_select_choice_B!)
+                        Text(problemCell.problem_select_choice_B)
                     }.onTapGesture {
                         problemSelectChosen = 2
                     }.foregroundColor(
@@ -38,15 +38,14 @@ struct ProblemCellView: View {
                     )
                     HStack {
                         Text("C.")
-                        Text(problemCell.problem_select_choice_C!)
-                    }.onTapGesture {
+                        Text(problemCell.problem_select_choice_C)                    }.onTapGesture {
                         problemSelectChosen = 3
                     }.foregroundColor(
                         problemSelectChosen == 3 ? .blue : .primary
                     )
                     HStack {
                         Text("D.")
-                        Text(problemCell.problem_select_choice_D!)
+                        Text(problemCell.problem_select_choice_D)
                     }
                     .onTapGesture {
                         problemSelectChosen = 4

@@ -11,7 +11,7 @@ struct HeadView: View {
         
     var body: some View {
         VStack {
-            TabBarView()
+            Text("HELLO WORLD!!")
         }
     }
 }

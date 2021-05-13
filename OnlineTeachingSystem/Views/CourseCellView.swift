@@ -37,7 +37,7 @@ struct CourseCellView: View {
         }
         .frame(width: .none, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .background(Color.white.opacity(0.8))
-        .cornerRadius(10.0)
+        .cornerRadius(20.0)
 //        .padding(5)
         .shadow(color: Color.gray, radius: 10)
         

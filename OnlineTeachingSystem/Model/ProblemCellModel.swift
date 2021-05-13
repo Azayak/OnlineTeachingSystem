@@ -14,11 +14,11 @@ struct ProblemCellModel {
     
     var problem_stem: String
     
-    var problem_select_choice_A: String?
-    var problem_select_choice_B: String?
-    var problem_select_choice_C: String?
-    var problem_select_choice_D: String?
+    var problem_select_choice_A: String
+    var problem_select_choice_B: String
+    var problem_select_choice_C: String
+    var problem_select_choice_D: String
     
-    var select_answer: Int?
-    var fill_answer: String?
+    var select_answer: Int
+    var fill_answer: String
 }

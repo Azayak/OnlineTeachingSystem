@@ -8,19 +8,16 @@
 import SwiftUI
 
 struct MinePageView: View {
-    @EnvironmentObject var details: MyDetails
-        
-    var userMineDetail: UserMineDetailModel
+//    @EnvironmentObject var details: MyDetails
     
-    var name:String = "张健浩"
-    var major:String = "软件工程"
-    var mcalss:String = "软件72班"
+    @EnvironmentObject var userMineViewModel: UserMineViewModel
     
     var body: some View {
         NavigationView {
             List {
                 HStack {
-                    userMineDetail.user_image!
+//                    userMineDetail.user_image
+                    userMineViewModel.userMineDetail.user_image
                         .resizable()
                         .frame(width: 80, height: 80, alignment: .center)
                         .imageScale(.small)
@@ -32,30 +29,38 @@ struct MinePageView: View {
                         .shadow(radius: 3)
                     Spacer(minLength: 100)
                     VStack(alignment: .leading) {
-                        Text(userMineDetail.common_name)
+                        Text(userMineViewModel.userMineDetail.common_name)
                             .font(.title)
                         HStack {
-                            Text("学号")
+                            Text("id:")
                             //                                Spacer()
-                            Text(NSNumber(value: userMineDetail.user_id).stringValue)
+                            Text(NSNumber(value: userMineViewModel.userMineDetail.user_id).stringValue)
                         }
-                        HStack {
-                            Text("\(userMineDetail.user_grade!)")
-                            Text("年级")
-                            //                                Spacer()
-                            Text("\(userMineDetail.user_class!)")
-                            Text("班")
+                        if(userMineViewModel.userMineDetail.role_category == 1) {
+                            HStack {
+                                Text("\(userMineViewModel.userMineDetail.user_grade)")
+                                Text("年级")
+                                //                                Spacer()
+                                Text("\(userMineViewModel.userMineDetail.user_class)")
+                                Text("班")
+                            }
+                        } else if(userMineViewModel.userMineDetail.role_category == 2) {
+                            Text("教师用户")
+                        } else if(userMineViewModel.userMineDetail.role_category == 3) {
+                            Text("管理员用户")
                         }
                         //                            Text(uuser.user_desc!)
                         //                                .font(.body)
                     }
                 }
                 
-                NavigationLink(destination: MyDetailsView(userMineDetail: userMineDetail), label: {
+                NavigationLink(destination: MyDetailsView().environmentObject(userMineViewModel), label: {
                         Text("个人信息")
                     })                
                 NavigationLink(
-                    destination: CoursesListView(coursesList: myCoursesList, titleName: "我的课程"),
+                    destination: CoursesListView(titleName: "我的课程")
+                        .environmentObject(CoursesViewModel.init(userMineViewModel.userMineDetail.user_id))
+                    ,
                     label: {
                         Text("我的课程")
                     })
@@ -90,6 +95,6 @@ struct MinePageView: View {
 
 struct MyDetailsPageView_Previews: PreviewProvider {
     static var previews: some View {
-        MinePageView(userMineDetail: myUserMineDetail)
+        MinePageView().environmentObject(UserMineViewModel(user_id: 10001))
     }
 }

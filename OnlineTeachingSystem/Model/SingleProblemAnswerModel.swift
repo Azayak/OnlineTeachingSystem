@@ -13,8 +13,8 @@ struct SingleProblemAnswerModel {
     var problem_id: Int
     var answer_category: Int
     
-    var select_answer: Int?
-    var fill_answer: String?
+    var select_answer: Int
+    var fill_answer: String
     
     var is_right: Int
 }

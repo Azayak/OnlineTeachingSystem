@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct TabBarView: View {
+    
+    @EnvironmentObject var userMineViewModel: UserMineViewModel
+
     @State var searchText:String = ""
 
     @State var isMianMenuViewAppear: Bool = true
@@ -21,17 +24,19 @@ struct TabBarView: View {
                     Image(systemName: "house").imageScale(.large)
                     Text("首页")
                 }
-            CoursesListView(coursesList: myCoursesList, titleName: "课程列表")
+            CoursesListView(titleName: "课程列表")
+                .environmentObject(CoursesViewModel.init())
                 .tabItem {
                     Image(systemName: "book").imageScale(.large)
                     Text("课程")
                 }
-            CoursesListView(coursesList: myCoursesList, titleName: "讨论区列表")
+            CoursesListView(titleName: "讨论区列表")
+                .environmentObject(CoursesViewModel.init())
                 .tabItem {
                     Image(systemName: "message").imageScale(.large)
                     Text("讨论区")
                 }
-            MinePageView(userMineDetail: myUserMineDetail)
+            MinePageView().environmentObject(userMineViewModel)
                 .tabItem {
                     Image(systemName: "person").imageScale(.large)
                     Text("我的")
