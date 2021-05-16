@@ -17,9 +17,9 @@ struct VideoDetailView: View {
         Float(videoCell.video_length) / 1000 / 60
     }
     
-    func lengthToMin(length: Int) -> Float {
-        return Float(videoCell.video_length) / 1000 / 60
-    }
+//    func lengthToMin(length: Int) -> Float {
+//        return Float(length) / 1000 / 60
+//    }
     
     var body: some View {
         VStack(alignment: .center, spacing: 5) {

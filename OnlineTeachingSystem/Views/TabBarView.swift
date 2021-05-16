@@ -25,7 +25,7 @@ struct TabBarView: View {
                     Text("首页")
                 }
             CoursesListView(titleName: "课程列表")
-                .environmentObject(CoursesViewModel.init())
+                .environmentObject(CoursesViewModel.init(user_id: userMineViewModel.userMineDetail.user_id, isFliter: 0))
                 .tabItem {
                     Image(systemName: "book").imageScale(.large)
                     Text("课程")

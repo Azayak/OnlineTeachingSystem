@@ -56,10 +56,10 @@ struct MinePageView: View {
                 
                 NavigationLink(destination: MyDetailsView().environmentObject(userMineViewModel), label: {
                         Text("个人信息")
-                    })                
+                    })
                 NavigationLink(
                     destination: CoursesListView(titleName: "我的课程")
-                        .environmentObject(CoursesViewModel.init(userMineViewModel.userMineDetail.user_id))
+                        .environmentObject(CoursesViewModel.init(user_id: userMineViewModel.userMineDetail.user_id, isFliter: 1))
                     ,
                     label: {
                         Text("我的课程")

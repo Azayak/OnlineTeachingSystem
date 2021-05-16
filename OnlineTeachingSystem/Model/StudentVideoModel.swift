@@ -7,9 +7,14 @@
 
 import Foundation
 
-struct StudentVideoModel {
+struct StudentVideoModel: Identifiable {
+    var id: [Int] {
+        [student_id, video_id]
+    }
     var student_id: Int
     var video_id: Int
     var studyLength: Int
     var lastTimePoint: Int
 }
+
+

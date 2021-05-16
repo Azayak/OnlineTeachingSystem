@@ -8,7 +8,11 @@
 import Foundation
 import SwiftUI
 
-struct VideoCellModel {
+struct VideoCellModel: Identifiable {
+    var id: Int {
+        video_id
+    }
+    
     var video_id: Int
     var course_id: Int
     var video_name: String

@@ -10,6 +10,7 @@ import Foundation
 class CoursesViewModel: ObservableObject {
     
     @Published var coursesList: [CourseCellModel] = []
+    @Published var user_id: Int = 0
     
     init() {
         for db_course in db_courses {
@@ -18,19 +19,28 @@ class CoursesViewModel: ObservableObject {
         }
     }
     
-    init(_ user_id: Int) {
-        var myCoursesIDList: [Int] = []
-        for db_course_student in db_course_students {
-            if(db_course_student.student_id == user_id) {
-                myCoursesIDList.append(db_course_student.course_id)
-            }
-        }
-        for db_course in db_courses {
-            if(myCoursesIDList.contains(db_course.course_id)) {
+    init(user_id: Int, isFliter: Int) {
+        self.user_id = user_id
+        if(isFliter == 0) {
+            for db_course in db_courses {
                 let oneCourse: CourseCellModel = CourseCellModel(course_id: db_course.course_id, teacher_id: db_course.teacher_id, course_name: db_course.course_name, course_desc: db_course.course_desc, course_image_index: db_course.course_image_index, course_grade: db_course.course_grade, course_category: db_course.course_category)
                 coursesList.append(oneCourse)
             }
+        } else {
+            var myCoursesIDList: [Int] = []
+            for db_course_student in db_course_students {
+                if(db_course_student.student_id == user_id) {
+                    myCoursesIDList.append(db_course_student.course_id)
+                }
+            }
+            for db_course in db_courses {
+                if(myCoursesIDList.contains(db_course.course_id)) {
+                    let oneCourse: CourseCellModel = CourseCellModel(course_id: db_course.course_id, teacher_id: db_course.teacher_id, course_name: db_course.course_name, course_desc: db_course.course_desc, course_image_index: db_course.course_image_index, course_grade: db_course.course_grade, course_category: db_course.course_category)
+                    coursesList.append(oneCourse)
+                }
+            }
         }
+        
     }
     
 //    init(user_id: Int) {

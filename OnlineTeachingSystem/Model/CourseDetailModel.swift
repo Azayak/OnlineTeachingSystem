@@ -8,8 +8,14 @@
 import Foundation
 
 struct CourseDetailModel {
+    var studentDetail: UserMineDetailModel
     var courseCell: CourseCellModel
     var videosList: [VideoCellModel]
+    var teacherDetail: UserMineDetailModel
+    var studentVideo: [StudentVideoModel]
+    var courseStudent: CourseStudentModel
+    
+//    var StudentCourse
 }
 
 

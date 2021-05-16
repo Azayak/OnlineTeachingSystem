@@ -26,12 +26,15 @@
 		E57F0D12264D593000F50BB2 /* EditableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F0D11264D593000F50BB2 /* EditableText.swift */; };
 		E57F0D14264D649C00F50BB2 /* CoursesVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F0D13264D649C00F50BB2 /* CoursesVIewModel.swift */; };
 		E57F0D16264D7B9400F50BB2 /* CourseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F0D15264D7B9400F50BB2 /* CourseDetailViewModel.swift */; };
+		E58A14AD265033F200111DE4 /* CourseStudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14AC265033F200111DE4 /* CourseStudentModel.swift */; };
+		E58A14B026513DE400111DE4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14AF26513DE400111DE4 /* Extension.swift */; };
+		E58A14B32651620300111DE4 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14B22651620300111DE4 /* TestClass.swift */; };
 		E59184FE264654B800B677FF /* UserMineDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59184FD264654B800B677FF /* UserMineDetailModel.swift */; };
 		E5918500264658DB00B677FF /* CourseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59184FF264658DB00B677FF /* CourseCellModel.swift */; };
 		E59185022646899200B677FF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59185012646899200B677FF /* ModelData.swift */; };
 		E591850426468A0D00B677FF /* UuserData.json in Sources */ = {isa = PBXBuildFile; fileRef = E591850326468A0D00B677FF /* UuserData.json */; };
 		E591850626468DE500B677FF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = E591850526468DE500B677FF /* landmarkData.json */; };
-		E59598052647E5E100AD6468 /* MyCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59598042647E5E100AD6468 /* MyCoursesView.swift */; };
+		E59598052647E5E100AD6468 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59598042647E5E100AD6468 /* TestView.swift */; };
 		E59598072647E63500AD6468 /* CourseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59598062647E63500AD6468 /* CourseCellView.swift */; };
 		E595980926495C8200AD6468 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595980826495C8200AD6468 /* CourseDetailView.swift */; };
 		E595980B26495D0C00AD6468 /* CourseDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595980A26495D0C00AD6468 /* CourseDetailModel.swift */; };
@@ -79,12 +82,15 @@
 		E57F0D11264D593000F50BB2 /* EditableText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableText.swift; sourceTree = "<group>"; };
 		E57F0D13264D649C00F50BB2 /* CoursesVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesVIewModel.swift; sourceTree = "<group>"; };
 		E57F0D15264D7B9400F50BB2 /* CourseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewModel.swift; sourceTree = "<group>"; };
+		E58A14AC265033F200111DE4 /* CourseStudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStudentModel.swift; sourceTree = "<group>"; };
+		E58A14AF26513DE400111DE4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E58A14B22651620300111DE4 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		E59184FD264654B800B677FF /* UserMineDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMineDetailModel.swift; sourceTree = "<group>"; };
 		E59184FF264658DB00B677FF /* CourseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellModel.swift; sourceTree = "<group>"; };
 		E59185012646899200B677FF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		E591850326468A0D00B677FF /* UuserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UuserData.json; sourceTree = "<group>"; };
 		E591850526468DE500B677FF /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
-		E59598042647E5E100AD6468 /* MyCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesView.swift; sourceTree = "<group>"; };
+		E59598042647E5E100AD6468 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		E59598062647E63500AD6468 /* CourseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellView.swift; sourceTree = "<group>"; };
 		E595980826495C8200AD6468 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
 		E595980A26495D0C00AD6468 /* CourseDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailModel.swift; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 		E5788DA025F62DC50007F011 /* OnlineTeachingSystem */ = {
 			isa = PBXGroup;
 			children = (
+				E58A14B1265161F600111DE4 /* Test */,
+				E58A14AE26513DCD00111DE4 /* Extension */,
 				E591850326468A0D00B677FF /* UuserData.json */,
 				E59185072646C38500B677FF /* Resources */,
 				E5788DE725F9E81C0007F011 /* zhangjianhao.png */,
@@ -176,6 +184,7 @@
 				E5959810264AD0FA00AD6468 /* StudentVideoModel.swift */,
 				E5959812264B7ECA00AD6468 /* ProblemCellModel.swift */,
 				E5959814264B7F8F00AD6468 /* SingleProblemAnswerModel.swift */,
+				E58A14AC265033F200111DE4 /* CourseStudentModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,7 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				E5788DA525F62DC50007F011 /* ContentView.swift */,
-				E59598042647E5E100AD6468 /* MyCoursesView.swift */,
 				E57F0D11264D593000F50BB2 /* EditableText.swift */,
 				E5788DB925F62E920007F011 /* MinePageView.swift */,
 				E5788DBF25F635130007F011 /* MyDetailsView.swift */,
@@ -217,6 +225,23 @@
 				E59185012646899200B677FF /* ModelData.swift */,
 			);
 			path = DataJSON;
+			sourceTree = "<group>";
+		};
+		E58A14AE26513DCD00111DE4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E58A14AF26513DE400111DE4 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E58A14B1265161F600111DE4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E59598042647E5E100AD6468 /* TestView.swift */,
+				E58A14B22651620300111DE4 /* TestClass.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		E59185072646C38500B677FF /* Resources */ = {
@@ -325,6 +350,7 @@
 				E5788DD225F7093D0007F011 /* HeadView.swift in Sources */,
 				E5959820264BD4B500AD6468 /* _communication_area.swift in Sources */,
 				E59185022646899200B677FF /* ModelData.swift in Sources */,
+				E58A14B026513DE400111DE4 /* Extension.swift in Sources */,
 				E5959828264BD64200AD6468 /* _video.swift in Sources */,
 				E591850426468A0D00B677FF /* UuserData.json in Sources */,
 				E57F0D14264D649C00F50BB2 /* CoursesVIewModel.swift in Sources */,
@@ -338,15 +364,17 @@
 				E595981A264BD34B00AD6468 /* _user.swift in Sources */,
 				E5959832264BD95500AD6468 /* _student_answer.swift in Sources */,
 				E5788DA225F62DC50007F011 /* AppDelegate.swift in Sources */,
+				E58A14B32651620300111DE4 /* TestClass.swift in Sources */,
 				E59598072647E63500AD6468 /* CourseCellView.swift in Sources */,
 				E57F0D10264D3E8E00F50BB2 /* UserMineViewModel.swift in Sources */,
 				E57F0D16264D7B9400F50BB2 /* CourseDetailViewModel.swift in Sources */,
 				E5788DA425F62DC50007F011 /* SceneDelegate.swift in Sources */,
 				E57F0D12264D593000F50BB2 /* EditableText.swift in Sources */,
 				E595981E264BD47200AD6468 /* _course_student.swift in Sources */,
+				E58A14AD265033F200111DE4 /* CourseStudentModel.swift in Sources */,
 				E59184FE264654B800B677FF /* UserMineDetailModel.swift in Sources */,
 				E5788DDC25F725BE0007F011 /* CoursesListView.swift in Sources */,
-				E59598052647E5E100AD6468 /* MyCoursesView.swift in Sources */,
+				E59598052647E5E100AD6468 /* TestView.swift in Sources */,
 				E5788DC025F635130007F011 /* MyDetailsView.swift in Sources */,
 				E5959811264AD0FA00AD6468 /* StudentVideoModel.swift in Sources */,
 				E5788DBA25F62E920007F011 /* MinePageView.swift in Sources */,

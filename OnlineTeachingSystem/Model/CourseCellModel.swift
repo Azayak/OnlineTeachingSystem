@@ -24,4 +24,16 @@ struct CourseCellModel {
     
     var course_grade: Int
     var course_category: Int
+    
+    var course_common_category_name: String {
+        if(course_category == 1) {
+            return "语文"
+        } else if(course_category == 2) {
+            return "数学"
+        } else if(course_category == 3) {
+            return "英语"
+        } else {
+            return "其他"
+        }
+    }
 }
