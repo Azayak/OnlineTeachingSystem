@@ -29,6 +29,14 @@
 		E58A14AD265033F200111DE4 /* CourseStudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14AC265033F200111DE4 /* CourseStudentModel.swift */; };
 		E58A14B026513DE400111DE4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14AF26513DE400111DE4 /* Extension.swift */; };
 		E58A14B32651620300111DE4 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14B22651620300111DE4 /* TestClass.swift */; };
+		E58A14B5265241AB00111DE4 /* CommunicationAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14B4265241AB00111DE4 /* CommunicationAreaModel.swift */; };
+		E58A14B7265241D500111DE4 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14B6265241D500111DE4 /* TopicModel.swift */; };
+		E58A14B92652420B00111DE4 /* AreaStudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14B82652420B00111DE4 /* AreaStudentModel.swift */; };
+		E58A14BB2652427500111DE4 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14BA2652427500111DE4 /* CommentModel.swift */; };
+		E58A14BD265245B400111DE4 /* CommunicationAreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14BC265245B400111DE4 /* CommunicationAreaViewModel.swift */; };
+		E58A14BF265268BD00111DE4 /* TopicCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14BE265268BD00111DE4 /* TopicCellModel.swift */; };
+		E58A14C126526FCD00111DE4 /* CommunicationAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14C026526FCD00111DE4 /* CommunicationAreaView.swift */; };
+		E58A14C32652D86A00111DE4 /* IDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A14C22652D86A00111DE4 /* IDGenerator.swift */; };
 		E59184FE264654B800B677FF /* UserMineDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59184FD264654B800B677FF /* UserMineDetailModel.swift */; };
 		E5918500264658DB00B677FF /* CourseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59184FF264658DB00B677FF /* CourseCellModel.swift */; };
 		E59185022646899200B677FF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59185012646899200B677FF /* ModelData.swift */; };
@@ -85,6 +93,14 @@
 		E58A14AC265033F200111DE4 /* CourseStudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStudentModel.swift; sourceTree = "<group>"; };
 		E58A14AF26513DE400111DE4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		E58A14B22651620300111DE4 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		E58A14B4265241AB00111DE4 /* CommunicationAreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationAreaModel.swift; sourceTree = "<group>"; };
+		E58A14B6265241D500111DE4 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		E58A14B82652420B00111DE4 /* AreaStudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaStudentModel.swift; sourceTree = "<group>"; };
+		E58A14BA2652427500111DE4 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		E58A14BC265245B400111DE4 /* CommunicationAreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationAreaViewModel.swift; sourceTree = "<group>"; };
+		E58A14BE265268BD00111DE4 /* TopicCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCellModel.swift; sourceTree = "<group>"; };
+		E58A14C026526FCD00111DE4 /* CommunicationAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationAreaView.swift; sourceTree = "<group>"; };
+		E58A14C22652D86A00111DE4 /* IDGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDGenerator.swift; sourceTree = "<group>"; };
 		E59184FD264654B800B677FF /* UserMineDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMineDetailModel.swift; sourceTree = "<group>"; };
 		E59184FF264658DB00B677FF /* CourseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellModel.swift; sourceTree = "<group>"; };
 		E59185012646899200B677FF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -185,6 +201,11 @@
 				E5959812264B7ECA00AD6468 /* ProblemCellModel.swift */,
 				E5959814264B7F8F00AD6468 /* SingleProblemAnswerModel.swift */,
 				E58A14AC265033F200111DE4 /* CourseStudentModel.swift */,
+				E58A14B4265241AB00111DE4 /* CommunicationAreaModel.swift */,
+				E58A14B6265241D500111DE4 /* TopicModel.swift */,
+				E58A14B82652420B00111DE4 /* AreaStudentModel.swift */,
+				E58A14BA2652427500111DE4 /* CommentModel.swift */,
+				E58A14BE265268BD00111DE4 /* TopicCellModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +225,7 @@
 				E595980826495C8200AD6468 /* CourseDetailView.swift */,
 				E595980E264ACC0300AD6468 /* VideoDetailView.swift */,
 				E5959816264B810100AD6468 /* ProblemCellView.swift */,
+				E58A14C026526FCD00111DE4 /* CommunicationAreaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +237,8 @@
 				E57F0D0F264D3E8E00F50BB2 /* UserMineViewModel.swift */,
 				E57F0D13264D649C00F50BB2 /* CoursesVIewModel.swift */,
 				E57F0D15264D7B9400F50BB2 /* CourseDetailViewModel.swift */,
+				E58A14BC265245B400111DE4 /* CommunicationAreaViewModel.swift */,
+				E58A14C22652D86A00111DE4 /* IDGenerator.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -345,8 +369,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58A14C126526FCD00111DE4 /* CommunicationAreaView.swift in Sources */,
 				E595980926495C8200AD6468 /* CourseDetailView.swift in Sources */,
+				E58A14B7265241D500111DE4 /* TopicModel.swift in Sources */,
+				E58A14B92652420B00111DE4 /* AreaStudentModel.swift in Sources */,
 				E5918500264658DB00B677FF /* CourseCellModel.swift in Sources */,
+				E58A14BB2652427500111DE4 /* CommentModel.swift in Sources */,
 				E5788DD225F7093D0007F011 /* HeadView.swift in Sources */,
 				E5959820264BD4B500AD6468 /* _communication_area.swift in Sources */,
 				E59185022646899200B677FF /* ModelData.swift in Sources */,
@@ -356,8 +384,10 @@
 				E57F0D14264D649C00F50BB2 /* CoursesVIewModel.swift in Sources */,
 				E5959815264B7F8F00AD6468 /* SingleProblemAnswerModel.swift in Sources */,
 				E595980D264AC8E900AD6468 /* VideoCellModel.swift in Sources */,
+				E58A14C32652D86A00111DE4 /* IDGenerator.swift in Sources */,
 				E595982E264BD7FA00AD6468 /* _problem.swift in Sources */,
 				E5788DBD25F62F5A0007F011 /* MyDetails.swift in Sources */,
+				E58A14B5265241AB00111DE4 /* CommunicationAreaModel.swift in Sources */,
 				E595980F264ACC0300AD6468 /* VideoDetailView.swift in Sources */,
 				E595980B26495D0C00AD6468 /* CourseDetailModel.swift in Sources */,
 				E595982C264BD7BD00AD6468 /* _homework.swift in Sources */,
@@ -365,6 +395,7 @@
 				E5959832264BD95500AD6468 /* _student_answer.swift in Sources */,
 				E5788DA225F62DC50007F011 /* AppDelegate.swift in Sources */,
 				E58A14B32651620300111DE4 /* TestClass.swift in Sources */,
+				E58A14BD265245B400111DE4 /* CommunicationAreaViewModel.swift in Sources */,
 				E59598072647E63500AD6468 /* CourseCellView.swift in Sources */,
 				E57F0D10264D3E8E00F50BB2 /* UserMineViewModel.swift in Sources */,
 				E57F0D16264D7B9400F50BB2 /* CourseDetailViewModel.swift in Sources */,
@@ -389,6 +420,7 @@
 				E5959817264B810100AD6468 /* ProblemCellView.swift in Sources */,
 				E5788DA625F62DC50007F011 /* ContentView.swift in Sources */,
 				E5788DD825F70AE90007F011 /* TabBarView.swift in Sources */,
+				E58A14BF265268BD00111DE4 /* TopicCellModel.swift in Sources */,
 				E595982A264BD76100AD6468 /* _student_video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

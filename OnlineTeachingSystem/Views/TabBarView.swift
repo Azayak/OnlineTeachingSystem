@@ -11,7 +11,8 @@ struct TabBarView: View {
     
     @EnvironmentObject var userMineViewModel: UserMineViewModel
 
-    @State var searchText:String = ""
+//    @State var searchText: String = ""
+//    @State var isEidting: Bool = false
 
     @State var isMianMenuViewAppear: Bool = true
     @State var isMianMenuAppear: Bool = true
@@ -19,7 +20,7 @@ struct TabBarView: View {
     
     var body: some View {
         TabView {
-            MainMnueView(searchText: $searchText)
+            MainMnueView()
                 .tabItem {
                     Image(systemName: "house").imageScale(.large)
                     Text("首页")
